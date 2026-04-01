@@ -32,7 +32,7 @@ user_choice = int(input('''What do you choose? Type 0 for Rock, Type 1
 for Paper, Type 2 for Scissors'''))
 
 comp_choice = random.randint(0,2)
-if user_choice > 2:
+if user_choice > 2 or user_choice < 0:
     print("You have entered wrong input")
 else:
     print(game_list[user_choice])
