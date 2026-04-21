@@ -4,7 +4,7 @@
 # TODO-4: Compare bids in dictionary
 
 # import art
-# print(art.logo)
+# print(art.logo1)
 logo = r'''
                          ___________
                          \         /
