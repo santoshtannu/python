@@ -15,7 +15,7 @@ def check_answer(user_guess, a_followers, b_followers):
     else:
         return user_guess == "b"
 
-print(logo)
+print(highlow)
 score = 0
 continue_playing = True
 account_b = random.choice(data)
